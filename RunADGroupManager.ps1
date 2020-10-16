@@ -1,11 +1,10 @@
 ﻿<#	
 	.NOTES
 	===========================================================================
-	 Created with: 	PowerShell ISE
-	 Created on:   	09/10/2020
+	 Created with: 	Visual Studio Code
+	 Created on:   	16/10/2020
 	 Created by:   	Jin
-	 Organization: 	MQ Uni
-	 Filename:     	ADGroupManager.ps1
+	 Filename:     	RunADGroupManager.ps1
 	===========================================================================
 	.DESCRIPTION
 		A PowerShell script to manage creation of AD Security group and it's members
@@ -68,7 +67,7 @@ Press (y) to continue running this script, else any other key to return"
 		}'2'{
 
 			#cls
-			Write-Host "You chose option 2" -ForegroundColor Gray		
+			Write-Host "You chose option 2" -ForegroundColor Gray
             Write-Host "`nNAME" -ForegroundColor Green
             Write-Host "     jk-2Add-MultipleUsersToMultipleGroups[Input-CSV].ps1`n" -ForegroundColor Green
             Write-Host "SYNOPSIS" -ForegroundColor Green

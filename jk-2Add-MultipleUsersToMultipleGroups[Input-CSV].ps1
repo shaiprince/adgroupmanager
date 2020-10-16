@@ -1,8 +1,8 @@
 ﻿<#	
 	.NOTES
 	===========================================================================
-	 Created with: 	PowerShell ISE
-	 Created on:   	09/10/2020
+	 Created with: 	Visual Studio Code
+	 Created on:   	16/10/2020
 	 Created by:   	Jin
 	 Organization: 	MQ Uni
 	 Filename:     	jk-2Add-MultipleUsersToMultipleGroups[Input-CSV].ps1
