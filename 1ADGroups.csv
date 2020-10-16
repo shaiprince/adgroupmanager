@@ -1,0 +1,4 @@
+GroupName,GroupType,GroupLocation 
+ART-G-SE-DeptOfHistory&Archaeology-HOD,Global,"OU=Security,OU=Staff,OU=ART-Groups,OU=ART,OU=MQ-BusUnit-Res,DC=mqauth,DC=uni,DC=mq,DC=edu,DC=au"
+ART-G-SE-MacquarieSchoolOfSocialSciences-HOD,Global,"OU=Security,OU=Staff,OU=ART-Groups,OU=ART,OU=MQ-BusUnit-Res,DC=mqauth,DC=uni,DC=mq,DC=edu,DC=au"
+ART-G-SE-DeptOfMediaLanguage&Literature-HOD,Global,"OU=Security,OU=Staff,OU=ART-Groups,OU=ART,OU=MQ-BusUnit-Res,DC=mqauth,DC=uni,DC=mq,DC=edu,DC=au"
