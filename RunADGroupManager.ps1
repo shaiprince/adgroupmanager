@@ -1,11 +1,10 @@
 ﻿<#	
 	.NOTES
 	===========================================================================
-	 Created with: 	PowerShell ISE
-	 Created on:   	09/10/2020
+	 Created with: 	Visual Studio Code
+	 Created on:   	16/10/2020
 	 Created by:   	Jin
-	 Organization: 	MQ Uni
-	 Filename:     	ADGroupManager.ps1
+	 Filename:     	RunADGroupManager.ps1
 	===========================================================================
 	.DESCRIPTION
 		A PowerShell script to manage creation of AD Security group and it's members
