@@ -1,17 +1,18 @@
 ﻿<#	
 	.NOTES
 	===========================================================================
-	 Created with: 	Visual Studio Code
-	 Created on:   	16/10/2020
+	 Created with: 	PowerShell ISE
+	 Created on:   	09/10/2020
 	 Created by:   	Jin
+	 Organization: 	MQ Uni
 	 Filename:     	jk-3Add-MultipleGlobalDomainLocalGroups[Input].ps1
 	===========================================================================
 	.DESCRIPTION
 		A PowerShell script to manage creation of AD Security group and it's members
 #>
 
-$csvfile = Import-Csv -path "$Home\AD Group management\3InsertGlobalGroupToDomainLocalGroups.csv" -delimiter ';'
-
+$csvfile = Import-Csv -path ".\3InsertGlobalGroupToDomainLocalGroups.csv" -delimiter ';'
+Write-Host $csvfile
 
 foreach ($item in $csvfile) {
     $GlobalGroup = $item.GlobalGroup

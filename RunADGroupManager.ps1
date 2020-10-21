@@ -1,10 +1,11 @@
 ﻿<#	
 	.NOTES
 	===========================================================================
-	 Created with: 	Visual Studio Code
-	 Created on:   	16/10/2020
+	 Created with: 	PowerShell ISE
+	 Created on:   	09/10/2020
 	 Created by:   	Jin
-	 Filename:     	RunADGroupManager.ps1
+	 Organization: 	MQ Uni
+	 Filename:     	ADGroupManager.ps1
 	===========================================================================
 	.DESCRIPTION
 		A PowerShell script to manage creation of AD Security group and it's members
@@ -67,7 +68,7 @@ Press (y) to continue running this script, else any other key to return"
 		}'2'{
 
 			#cls
-			Write-Host "You chose option 2" -ForegroundColor Gray
+			Write-Host "You chose option 2" -ForegroundColor Gray		
             Write-Host "`nNAME" -ForegroundColor Green
             Write-Host "     jk-2Add-MultipleUsersToMultipleGroups[Input-CSV].ps1`n" -ForegroundColor Green
             Write-Host "SYNOPSIS" -ForegroundColor Green
@@ -102,6 +103,7 @@ Press (y) to continue running this script, else any other key to return"
             Write-Host "Description`n" -ForegroundColor Green
             Write-Host "-----------`n" -ForegroundColor Green
             Write-Host "Please ensure 3InsertGlobalGroupToDomainLocalGroups.csv file is in below format`n" -ForegroundColor Green
+            Write-Host "**When editing use text and source code editor such as Notepad++ or Sublime Text. Do not use MS-Excel for this`n" -ForegroundColor Red
             Write-Host "GlobalGroup;DomainLocalGroup" -ForegroundColor Green
             Write-Host "ART-G-SE-Name;ART-L-SE-Name1,ART-L-SE-Name2,etc`n`n" -NoNewline -ForegroundColor Green
             Write-Host " `n" -ForegroundColor Green
