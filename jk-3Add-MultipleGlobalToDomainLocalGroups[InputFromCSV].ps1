@@ -4,7 +4,6 @@
 	 Created with: 	Visual Studio Code
 	 Created on:   	16/10/2020
 	 Created by:   	Jin
-	 Organization: 	MQ Uni
 	 Filename:     	jk-3Add-MultipleGlobalDomainLocalGroups[Input].ps1
 	===========================================================================
 	.DESCRIPTION
