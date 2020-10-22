@@ -1,10 +1,9 @@
 ﻿<#	
 	.NOTES
 	===========================================================================
-	 Created with: 	PowerShell ISE
+	 Created with: 	Visual Studio
 	 Created on:   	09/10/2020
 	 Created by:   	Jin
-	 Organization: 	MQ Uni
 	 Filename:     	jk-1CreateMultipleADGroups[InputFromCSV].ps1
 	===========================================================================
 	.DESCRIPTION
