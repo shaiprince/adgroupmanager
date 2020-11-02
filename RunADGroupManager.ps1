@@ -1,9 +1,10 @@
 ﻿<#	
 	.NOTES
 	===========================================================================
-	 Created with: 	Visual Studio
+	 Created with: 	PowerShell ISE
 	 Created on:   	09/10/2020
 	 Created by:   	Jin
+	 Organization: 	MQ Uni
 	 Filename:     	ADGroupManager.ps1
 	===========================================================================
 	.DESCRIPTION
@@ -25,8 +26,9 @@ function Show-Menu
 	Write-Host "**************** $Title ****************" -ForegroundColor Cyan
 	
 	Write-Host "* 1: Press '1' to create a AD Global Security groups" -ForegroundColor Yellow
-	Write-Host "* 2: Press '2' to add a members to AD Global Security groups" -ForegroundColor Yellow
-	Write-Host "* 3: Press '3' to insert AD Global Security group to Domain Local group" -ForegroundColor Yellow
+	Write-Host "* 2: Press '2' to add a member(s) to AD Global Security groups" -ForegroundColor Yellow
+	Write-Host "* 3: Press '3' to remove a member(s) to AD Global Security groups" -ForegroundColor Yellow
+	Write-Host "* 4: Press '4' to insert AD Global Security group to Domain Local group" -ForegroundColor Yellow
 	Write-Host "* Q: Press 'Q' to quit." -ForegroundColor Gray
 
     Write-Host "**************** $Title ****************" -ForegroundColor Cyan
@@ -92,11 +94,39 @@ Press (y) to continue running this script, else any other key to return"
                     .\jk-2Add-MultipleUsersToMultipleGroups[Input-CSV].ps1
                 }
             }
-		}'3'{
+        }'3'{
+
 			#cls
-			Write-Host "You chose option 3" -ForegroundColor Gray
+			Write-Host "You chose option 3" -ForegroundColor Gray		
             Write-Host "`nNAME" -ForegroundColor Green
-            Write-Host "     jk-3Add-MultipleGlobalToDomainLocalGroups[InputFromCSV].ps1`n" -ForegroundColor Green
+            Write-Host "     jk-3Remove-MultipleUsersToMultipleGroups[Input-CSV].ps1`n" -ForegroundColor Green
+            Write-Host "SYNOPSIS" -ForegroundColor Green
+            Write-Host "     Remove multiple users to multiple groups in Active Directory.`n" -ForegroundColor Green
+            Write-Host "Description`n" -ForegroundColor Green
+            Write-Host "-----------`n" -ForegroundColor Green
+            Write-Host "Please ensure 2MembersToAdd.csv file is in below format `n" -ForegroundColor Green
+            Write-Host "Group	            Accountname" -ForegroundColor Green
+            Write-Host "ART-G-SE-Example	OneID`n`n" -NoNewline -ForegroundColor Green
+            Write-Host " `n" -ForegroundColor Green
+            Write-Host "With above example,`n" -ForegroundColor Green
+            Write-Host "Removes the user accounts with OneID to the group ART-G-SE-Example.`n``
+Multiple addition of users to multiple groups can be achieved by addition of roms in the csv`n`n`n" -ForegroundColor Green
+            $Input = Read-Host "Have you edited 3MembersToRemove.csv with the needed groups and users to add?`n
+Press (y) to continue running this script, else any other key to return"
+            switch ($Input)
+                {
+                    'y'{
+                    Write-Host "You chose to continue" -ForegroundColor Gray
+                    Write-Host "Run powershell script 3" -BackgroundColor DarkCyan -ForegroundColor Yellow
+                    Set-Location $SetLocationPath
+                    .\jk-3Remove-MultipleUsersToMultipleGroups[Input-CSV].ps1
+                }
+            }
+		}'4'{
+			#cls
+			Write-Host "You chose option 4" -ForegroundColor Gray
+            Write-Host "`nNAME" -ForegroundColor Green
+            Write-Host "     jk-4Add-MultipleGlobalToDomainLocalGroups[InputFromCSV].ps1`n" -ForegroundColor Green
             Write-Host "SYNOPSIS" -ForegroundColor Green
             Write-Host "     Nest Global groups to Domain Local groups in Active Directory.`n" -ForegroundColor Green
             Write-Host "Description`n" -ForegroundColor Green
@@ -109,15 +139,15 @@ Press (y) to continue running this script, else any other key to return"
             Write-Host "With above example,`n" -ForegroundColor Green
             Write-Host "ART-G-SE-Name global group will be nested to ART-L-SE-Name1, ..Name2, etc.`n`
 Each row in csv will accept one(1) global group to multiple domain local groups`n`n`n" -ForegroundColor Green
-            $Input = Read-Host "Have you edited 3InsertGlobalGroupToDomainLocalGroups.csv with the needed groups to be nested to Domain Local groups?`n
+            $Input = Read-Host "Have you edited 4InsertGlobalGroupToDomainLocalGroups.csv with the needed groups to be nested to Domain Local groups?`n
 Press (y) to continue running this script, else any other key to return"
             switch ($Input)
                 {
                     'y'{
                     Write-Host "You chose to continue" -ForegroundColor Gray
-                    Write-Host "Run powershell script 3" -BackgroundColor DarkCyan -ForegroundColor Yellow
+                    Write-Host "Run powershell script 4" -BackgroundColor DarkCyan -ForegroundColor Yellow
   			        Set-Location $SetLocationPath
-                    .\jk-3Add-MultipleGlobalToDomainLocalGroups[InputFromCSV].ps1
+                    .\jk-4Add-MultipleGlobalToDomainLocalGroups[InputFromCSV].ps1
                 }
             }         	  	
 		}'q'{
