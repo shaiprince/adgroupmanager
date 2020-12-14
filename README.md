@@ -9,6 +9,7 @@ Active Directory Group Membership manager PowerShell
 * 3: Press '3' to remove a member(s) to AD Global Security groups
 * 4: Press '4' to insert AD Global Security group to Domain Local group
 * Q: Press 'Q' to quit.
+
 **************** AD Group Manager ****************
 Please make a selection: 
 
