@@ -1,7 +1,7 @@
 # adgroupmanager
 Active Directory Group Membership manager PowerShell
 
-# RunADGroupManager.ps1
+# RunADGroupManager.ps1 -- This is the menu for running each of the 
 
 **************** AD Group Manager ****************
 * 1: Press '1' to create a AD Global Security groups
@@ -13,7 +13,7 @@ Active Directory Group Membership manager PowerShell
 Please make a selection: 
 
 
-# You chose option 1  -- jk-1CreateMultipleADGroups[InputFromCSV].ps1
+# jk-1CreateMultipleADGroups[InputFromCSV].ps1 -- this will create AD group with scope and will work for multiple group creation
 
 NAME
      jk-1CreateMultipleADGroups[InputFromCSV].ps1
@@ -44,7 +44,7 @@ Press (y) to continue running this script, else any other key to return:
 
 
 
-# You chose option 2  -- jk-2Add-MultipleUsersToMultipleGroups[Input-CSV].ps1
+# jk-2Add-MultipleUsersToMultipleGroups[Input-CSV].ps1 -- this will add multiple users to multiple groups
 
 NAME
      jk-2Add-MultipleUsersToMultipleGroups[Input-CSV].ps1
@@ -77,7 +77,7 @@ Press (y) to continue running this script, else any other key to return:
 
 
 
-# You chose option 3  -- jk-3Remove-MultipleUsersToMultipleGroups[Input-CSV].ps1
+# jk-3Remove-MultipleUsersToMultipleGroups[Input-CSV].ps1 -- this will remove multiple users from multiple groups
 
 NAME
      jk-3Remove-MultipleUsersToMultipleGroups[Input-CSV].ps1
@@ -110,7 +110,7 @@ Press (y) to continue running this script, else any other key to return:
 
 
 
-#  You chose option 4  -- jk-4Add-MultipleGlobalToDomainLocalGroups[InputFromCSV].ps1
+#  jk-4Add-MultipleGlobalToDomainLocalGroups[InputFromCSV].ps1 -- this will remove multiple groups from AD
 
 NAME
      jk-4Add-MultipleGlobalToDomainLocalGroups[InputFromCSV].ps1
