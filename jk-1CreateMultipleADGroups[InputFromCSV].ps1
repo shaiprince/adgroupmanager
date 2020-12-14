@@ -4,6 +4,7 @@
 	 Created with: 	PowerShell ISE
 	 Created on:   	09/10/2020
 	 Created by:   	Jin
+	 Organization: 	MQ Uni
 	 Filename:     	jk-1CreateMultipleADGroups[InputFromCSV].ps1
 	===========================================================================
 	.DESCRIPTION

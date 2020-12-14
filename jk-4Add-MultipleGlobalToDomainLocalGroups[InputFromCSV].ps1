@@ -3,7 +3,8 @@
 	===========================================================================
 	 Created with: 	PowerShell ISE
 	 Created on:   	09/10/2020
-	 Created by:   	Jin Kim
+	 Created by:   	Jin
+	 Organization: 	MQ Uni
 	 Filename:     	jk-3Add-MultipleGlobalDomainLocalGroups[Input].ps1
 	===========================================================================
 	.DESCRIPTION
