@@ -3,8 +3,7 @@
 	===========================================================================
 	 Created with: 	PowerShell ISE
 	 Created on:   	09/10/2020
-	 Created by:   	Jin
-	 Organization: 	MQ Uni
+	 Created by:   	Jin Kim
 	 Filename:     	ADGroupManager.ps1
 	===========================================================================
 	.DESCRIPTION
