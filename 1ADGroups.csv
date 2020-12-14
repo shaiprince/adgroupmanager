@@ -1,4 +1,4 @@
 GroupName,GroupType,GroupLocation 
-AdobeCC-AddTestGroup1,Global,"OU=Distribution,OU=Staff,OU=ART-Groups,OU=ART,OU=MQ-BusUnit-Res,DC=mqauth,DC=uni,DC=mq,DC=edu,DC=au"
-AdobeCC-AddTestGroup2,DomainLocal,"OU=Distribution,OU=Staff,OU=ART-Groups,OU=ART,OU=MQ-BusUnit-Res,DC=mqauth,DC=uni,DC=mq,DC=edu,DC=au"
-AdobeCC-AddTestGroup3,Universal,"OU=Distribution,OU=Staff,OU=ART-Groups,OU=ART,OU=MQ-BusUnit-Res,DC=mqauth,DC=uni,DC=mq,DC=edu,DC=au"
+GroupName1,Global,"OU=MQ-BusUnit,DC=mqauth,DC=uni,DC=mq,DC=edu,DC=au"
+GroupName2,Global,"OU=MQ-BusUnit,DC=mqauth,DC=uni,DC=mq,DC=edu,DC=au"
+GroupName3,Global,"OU=MQ-BusUnit,DC=mqauth,DC=uni,DC=mq,DC=edu,DC=au"

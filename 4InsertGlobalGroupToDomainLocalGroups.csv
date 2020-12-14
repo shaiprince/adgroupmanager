@@ -1,4 +1,4 @@
 GlobalGroup;DomainLocalGroup
-AdobeCC-AddTestGroup1;ART-L-SE-Shares-Dept-IT,ART-L-SE-Shares-ITManager
-AdobeCC-AddTestGroup2;ART-L-SE-Shares-Dept-IT,ART-L-SE-Shares-ITManager
-AdobeCC-AddTestGroup3;ART-L-SE-Shares-Dept-IT,ART-L-SE-Shares-ITManager
+GroupName1;DomainLocalGroup1,DomainLocalGroup2
+GroupName2;DomainLocalGroup1,DomainLocalGroup2
+GroupName3;DomainLocalGroup1,DomainLocalGroup2
